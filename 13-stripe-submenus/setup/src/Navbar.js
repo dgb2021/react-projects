@@ -24,10 +24,8 @@ const Navbar = () => {
           <li>  
             <button className='link-btn'>company</button>
           </li>
-          <li>  
-            <button className='link-btn'>Sign in</button>
-          </li>
         </ul>
+        <button className='btn signin-btn'>Sign in</button>
       </div>
     </nav>
   )
