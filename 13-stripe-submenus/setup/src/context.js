@@ -10,14 +10,14 @@ export const AppProvider = ({children}) => {
   const openSidebar = () => {
     setIsSidebarOpen(true)
   }
-  const openSidebar = () => {
+  const closeSidebar = () => {
     setIsSidebarOpen(false)
   }
   const openSubmenu = () => {
     setIsSubmenuOpen(false)
   }
  const closeSubmenu = () => {
-    setIsSubmenuClose(false)
+    setIsSubmenuOpen(false)
   }
 
 return <AppContext.Provider value={{
